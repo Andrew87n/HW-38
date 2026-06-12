@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixabay Image Search</title>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form class="search-form" id="search-form">
+    <input
+      type="text"
+      name="query"
+      autocomplete="off"
+      placeholder="Search images..."
+    />
+  </form>
+
+  <ul class="gallery">
+    <!-- Сюди рендеряться картки зображень -->
+  </ul>
+
+  <button type="button" id="load-more-btn" class="load-more hidden">Load more</button>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
